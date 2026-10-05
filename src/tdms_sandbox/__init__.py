@@ -1,2 +1,1 @@
-def main() -> None:
-    print("Hello from tdms-sandbox!")
+"""Tools for reading and plotting TDMS data."""

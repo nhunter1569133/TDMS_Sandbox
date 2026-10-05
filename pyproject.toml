@@ -7,10 +7,13 @@ authors = [
     { name = "Nick Hunter", email = "nick.hunter@emerson.com" }
 ]
 requires-python = ">=3.8"
-dependencies = []
+dependencies = [
+    "matplotlib>=3.7.5",
+    "nptdms>=1.10.0",
+]
 
 [project.scripts]
-tdms-sandbox = "tdms_sandbox:main"
+tdms-sandbox = "tdms_sandbox.tdms_reader:main"
 
 [build-system]
 requires = ["uv_build>=0.12.23,<0.13.0"]
